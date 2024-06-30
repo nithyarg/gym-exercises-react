@@ -14,22 +14,30 @@ const HeroBanner = () => {
             Fitness club
         </Typography>
         <Typography fontweight={700}
-        sx={{fontSize:{lg:'44px', xs:'40px'}}}>
+        sx={{fontSize:{lg:'44px', xs:'40px'}}}
+         mb="23px" mt="30px"
+        >
             Sweat,Smile <br /> and React
         </Typography>
         <Typography fontSize="22px"
-        lineHeight="35px" mb={3}>
+        lineHeight="35px" mb={4}>
             Check out the most effective exercise
         </Typography>
         <Button variant='contained'
-        color="error" href="#exercises">Explore Exercises </Button>
+        color="error" href="#exercises"
+        sx={{backgroundcolor:'#ff2625',
+          padding: "10px"
+        }}
+        >Explore Exercises </Button>
         <Typography 
           fontweight={600}
           color="#ff2625"
           sx={{
             opacity:0.1,
             display:{lg:'black',xs:'none'}
-          }}>Exercises</Typography>
+          }}
+          fontSize="200px" 
+          >Exercises</Typography>
         <img src={HeroBannerImage} alt="banner"
         className='hero-banner-img'/>    
         </Box>
