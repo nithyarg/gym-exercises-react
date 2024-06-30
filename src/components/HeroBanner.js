@@ -34,7 +34,7 @@ const HeroBanner = () => {
           color="#ff2625"
           sx={{
             opacity:0.1,
-            display:{lg:'black',xs:'none'}
+            display:{lg:'block',xs:'none'}
           }}
           fontSize="200px" 
           >Exercises</Typography>
