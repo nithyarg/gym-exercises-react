@@ -1,5 +1,5 @@
 {
-  "name": "gym-exercises-react",
+  "name": "gym_exercises",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,8 @@
     "ajv-keywords": "^5.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-horizontal-scrolling-menu": "^7.1.1",
+    "react-loader-spinner": "^6.1.6",
     "react-router-dom": "^6.24.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
