@@ -1,6 +1,7 @@
 import React,{ useContext} from 'react'
 import { Box, Typography } from '@mui/material';
 import {ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
+import 'react-horizontal-scrolling-menu/dist/styles.css'; 
 
 import BodyPart from './BodyPart';
 
@@ -37,7 +38,7 @@ const HorizontalScrollbar = ({data, bodyPart, setBodyPart}) => {
           key={item.id || item}
           itemid={item.id || item}
           title={item.id || item}
-          m="0px 40px"
+          m="0 40px"
           >
            <BodyPart item={item} bodyPart=
              {bodyPart} setBodyPart= 
