@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { Box, Stack, Typography} from '@mui/material';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <Box mt="80x" bgcolor="#fff3f4">
+      <Stack gap="40px" alignItems="center" px="40px" pt="24px">
+          <img src={Logo} alt="logo" width="200px" height="40px"/>
+      </Stack>
+    </Box>
+    
   )
 }
 
